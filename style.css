@@ -1,4 +1,4 @@
-body{
+ body{
     font-family: "Lato", sans-serif
 }
     h1{
@@ -39,7 +39,7 @@ body{
         padding: 32px;
         text-align: center;
     }
-    .weather{
+    .weathers{
         background-color: #fff;
         padding: 64px;
     }
@@ -47,4 +47,8 @@ body{
         background-color: black;
         color: #fff;
         align-items: left
+    }
+    .weather{
+        background-color: black;
+        padding: 64px;
     }
