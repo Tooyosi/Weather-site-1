@@ -1,4 +1,4 @@
- body{
+body{
     font-family: "Lato", sans-serif
 }
     h1{
@@ -24,11 +24,11 @@
     }
     .fa-cloud {
         font-size: 200px;
-        color: red;
+        color: #7ed6df;
         padding: 64px
     }
     .header{
-        background-color: red;
+        background-color: #7ed6df;
         color: #fff;
         text-align: center;
         padding:128px 16px
@@ -40,10 +40,7 @@
         text-align: center;
     }
     .weather{
-        background-color: #c8d6e5;
-        padding: 64px;
-    }
-    .about{
+        background-color: #fff;
         padding: 64px;
     }
     .navbar{
