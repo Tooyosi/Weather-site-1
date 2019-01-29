@@ -29,9 +29,11 @@
     }
     .header{
         background-color: #7ed6df;
-        color: #fff;
+        color: black;
         text-align: center;
-        padding:128px 16px
+        padding:128px 16px;
+        background-image: url("clouds.jpg");
+        background-attachment: fixed;
     }
     .footer{
         background-color: black;
