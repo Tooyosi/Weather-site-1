@@ -1,4 +1,4 @@
- body{
+body{
     font-family: "Lato", sans-serif
 }
     h1{
@@ -22,18 +22,12 @@
     button {
         font-family: "Montserrat", sans-serif 
     }
-    .fa-cloud {
-        font-size: 200px;
-        color: #7ed6df;
-        padding: 64px
-    }
     .header{
-        background-color: #7ed6df;
-        color: black;
-        text-align: center;
-        padding:128px 16px;
         background-image: url("clouds.jpg");
         background-attachment: fixed;
+        color: black;
+        text-align: center;
+        padding:128px 16px
     }
     .footer{
         background-color: black;
@@ -41,7 +35,7 @@
         padding: 32px;
         text-align: center;
     }
-    .weathers{
+    .weather{
         background-color: #fff;
         padding: 64px;
     }
@@ -49,8 +43,4 @@
         background-color: black;
         color: #fff;
         align-items: left
-    }
-    .weather{
-        background-color: black;
-        padding: 64px;
     }
