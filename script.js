@@ -57,16 +57,11 @@ function myFunction() {
 
 var farButton = document.getElementById("fahrenheit");
 farButton.addEventListener("toggle", function(){
-	if (temp.style.display === "none") {
+	if (temp.style.display === "none" && temp2.style.display === "block") {
 		temp.style.display = "block";
-		
-  } else {
-    temp.style.display = "none";
-	}
-	
-	if(temp2.style.display === "none"){
-    temp2.style.display = "block";
-	}else {
-    temp2.style.display = "none";
+	    temp2.style.display = "none";
+	} else if(temp.style.display === "block" && temp2.style.display === "none") {
+    	temp.style.display = "none";
+    	temp2.style.display = "block";
 	}
 })
