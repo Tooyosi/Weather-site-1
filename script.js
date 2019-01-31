@@ -49,7 +49,7 @@ function myFunction() {
 			 ct.innerHTML = city;
 			 coun.innerHTML = country;
 			 temp.innerHTML = `${temperature}&deg;C`;
-			 temp2.innerHTML =  temperature * 1.8 + 32;
+			 temp2.innerHTML =  Number(temperature) * 1.8 + 32;
 			 img.src = icon,
 			 img.alt = desc;
 		 })
