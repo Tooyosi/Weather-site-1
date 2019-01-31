@@ -15,6 +15,7 @@ function myFunction() {
 	ct = document.getElementById("city"),
 	coun = document.getElementById("country"),
 	temp = document.getElementById("temp"),
+	temp2 = document.getElementById("temp2"),
 	img = document.getElementById("icon"),
 	desc = document.querySelector(".desc")
  
@@ -48,7 +49,24 @@ function myFunction() {
 			 ct.innerHTML = city;
 			 coun.innerHTML = country;
 			 temp.innerHTML = `${temperature}&deg;C`;
+			 temp2.innerHTML =  temperature * 1.8 + 32;
 			 img.src = icon,
 			 img.alt = desc;
 		 })
 	 }
+
+var farButton = document.getElementById("fahrenheit");
+farButton.addEventListener("toggle", function(){
+	if (temp.style.display === "none") {
+		temp.style.display = "block";
+		
+  } else {
+    temp.style.display = "none";
+	}
+	
+	if(temp2.style.display === "none"){
+    temp2.style.display = "block";
+	}else {
+    temp2.style.display = "none";
+	}
+})
